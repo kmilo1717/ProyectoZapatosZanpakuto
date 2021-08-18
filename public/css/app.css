@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #79dde2;
+}
+.log{
+    height: 270px;
+    width: 30%;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 15%;
+    border-top: solid 6px #32d071;
+    box-shadow: 2px 2px 3px grey;
+    border-radius: 2px;
+}
+
+.log input[type="text"],
+input[type="password"]{
+border: none;
+   background-color: #d6d0d0ad;
+   display: block;
+   margin: auto;
+   width: 230px;
+   height: 40px;;
+   margin-top: 20px;
+   border-radius: 100em;
+   padding: 0px 20px 0px 20px;
+
+}
+
+.log input[type="text"]::placeholder,
+input[type="password"]::placeholder{
+   color: gray;
+   text-align: center;
+}
+.log input[type="text"]:focus,
+input[type="password"]:focus{
+   outline: none;
+}
+
+.log input[type="text"]:focus,
+input[type="password"]:focus{
+   outline: none;
+}
+
+.log p{
+    font-size: 22px;
+    text-align: center;
+    color: gray;
+    letter-spacing: 1.5px;
+
+}
+.log input[type="submit"]{
+   background-color: #ff6c5f;
+   display: block;
+   margin: auto;
+   width: 230px;
+   height: 40px;;
+   margin-top: 20px;
+   border:none;
+   border-radius: 2px;
+   color: white;
+}
+.log input[type="submit"]:hover{
+    cursor: pointer;
+ }
+
+.log span{
+   color: #ff6c5f;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    margin-top: 15px;
+  font-weight: 600;
+}
+
+
+/* ************** HOME*******************/
+
